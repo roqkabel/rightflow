@@ -1,13 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&family=Oswald&family=Source+Sans+Pro&display=swap");
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
+  font-family: "Source Sans Pro", sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f2f4f4;
+  box-sizing: border-box;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* UTILITIES */
+
+/* *********************COLORS */
+.bg-primary {
+  background-color: #0089e1;
+}
+
+.bg-gray {
+  background-color: #bcbcbc;
+}
+
+.bg-white {
+  background-color: #fefefe;
+}
+/* *********************FONTS */
+
+.text-sm {
+  font-size: 14px !important;
+}
+.text-md {
+  font-size: 18px !important;
+}
+
+/* BOTTONS */
+.btn-primary {
+  border-radius: 10px;
+  padding: 1.4rem;
+  background-color: #008be141;
+}
+
+.cta-btn {
+  color: #0089e2;
+  background-color: rgba(0, 139, 225, 0.158);
+}
+
+.logo-font {
+  font-family: "Oswald", sans-serif !important;
+}
+
+.h-font {
+  font-family: "Manrope", sans-serif !important;
+}
+
+/* TABS */
+
+.uk-active > a {
+  background-color: #0089e1;
+  color: white !important;
+}
+
+/* .uk-active svg {
+  fill: #fefefe !important;
+} */

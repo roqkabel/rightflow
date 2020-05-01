@@ -1,3 +1,5 @@
+This Project Does not include React Router and Redux. for the sake of presentation
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
