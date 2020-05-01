@@ -24,14 +24,14 @@ export default function Overview() {
               href="#"
               style={{ padding: "1rem" }}
             >
-              <span className="fas fa-video mr-3 mt-1"></span>{" "}
+              <span className="fas fa-video mr-3 mt-1 text-sm"></span>{" "}
               <div>Cameras</div>{" "}
             </a>
           </li>
           <li>
             <a
               href="#"
-              className="uk-padding d-flex h-font  justify-content-center"
+              className="uk-padding d-flex h-font text-sm justify-content-center"
               style={{ padding: "1rem" }}
             >
               <span className="fas fa-user-friends mr-3 mt-1"></span> Traffic
@@ -39,7 +39,7 @@ export default function Overview() {
           </li>
           <li>
             <a
-              className="uk-padding d-flex h-font justify-content-center"
+              className="uk-padding d-flex text-sm h-font justify-content-center"
               href="#"
               style={{ padding: "1rem" }}
             >
